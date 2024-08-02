@@ -1,0 +1,94 @@
+/* stylesheet do body */
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    height: 100%;
+    width: 100%;
+    background: fixed rgb(184, 156, 213);
+}
+
+/******************/
+
+/* stylesheet do header */
+
+header {
+    height: 100px;
+    background-color: #000;
+}
+
+header h1 {
+    color: #ff0000;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 0 auto;
+    text-decoration: underline #8d0303;
+}
+
+/******************/
+
+/* stylesheet das imagens */
+
+img {
+    height: 200px;
+}
+
+/******************/
+
+/* stylesheet da div dos videos */
+
+#cat-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+/******************/
+
+/* stylesheet da section */
+
+section {
+    background: rgb(184, 156, 213);
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px;
+}
+
+/******************/
+
+
+/* stylesheet do h2 da section */
+
+section h2 {
+    background: fixed #000;
+    color: #808080;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/******************/
+
+#categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+#cat-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+#cat-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+#categoria h2 {
+    color: rgb(42, 122, 228);
+}
